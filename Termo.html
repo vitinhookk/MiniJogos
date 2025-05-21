@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://play-lh.googleusercontent.com/HMqznNZmnuR2wmipfZUaPcqrZnkWT9xOoV7QepkuMM5F7NiMviYzqmC-IWlzwFbUew=w240-h480-rw" type="image/x-icon">
+    <title>Termo</title>
+    <link rel="stylesheet" href="style.css">
+    
+ <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        animation: fadeIn 1s ease-in-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .container-aplicativo {
+        padding: 20px;
+        text-align: center;
+      }
+
+      .Titulo {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+
+      .container-letras,
+      .container-teclado {
+        margin: 10px auto;
+        max-width: 400px;
+      }
+
+      .linha-teclado {
+        margin-top: 10px;
+      }
+    </style>
+<img  class="mundo-senai" src="img/mundo senai1.png" alt="mundo senai" />
+  </head>
+  <body>
+    <div class="container-aplicativo">
+      <div class="container-titulo">
+        <h1 class="Titulo">TERMO</h1>
+      </div>
+      
+      <div class="container-letras"></div>
+      <div class="container-teclado">
+        <div class="linha-teclado nao-alfabetica" id="linhaBackspaceEnter"></div>
+        <div class="linha-teclado" id="linhaTeclado1"></div>
+        <div class="linha-teclado" id="linhaTeclado2"></div>
+        <div class="linha-teclado" id="linhaTeclado3"></div>
+      </div>
+    </div>
+    <div>
+  <a href="https://github.com/milymr" class="participantes">Emily Ribeiro</a>
+        <a href="https://github.com/twoMelo" class="participantes">Murilo Melo</a>
+        <a href="https://github.com/natss17" class="participantes">Nathalia Mariana</a>
+        <a href="https://github.com/vitinhookk" class="participantes">Victor Viana</a>
+        </div>
+    
+    <script src="script.js"></script>
+    <div>
+    <footer class="rodape">
+      <h5 class="colab">Uma colaboração </h5>
+    <a href="https://www.sesieducacao.com.br/publico/" class="botao-sesi">Sesi</a>
+    <a href="https://sp.senai.br/unidade/suzano/" class="botao-senai">Senai</a>
+            </div> 
+        </footer>
+  </body>
+</html>
