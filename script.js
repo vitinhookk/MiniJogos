@@ -16,7 +16,7 @@ let colunaAtual = 0
 
 const palavrasSecretas = [
     "TORNO", "MOTOR", "FRESA", "LOGIN", "INPUT",
-    "DADOS", "SENSOR", "CABOS", "BROCA", "VIGAS",
+    "DADOS", "CABOS", "BROCA", "VIGAS",
     "VOLTS", "LINUX", "AMIGO", "LIVRO", "ROUPA",
     "BEBER", "COMER", "PORTA"
 ]
